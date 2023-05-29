@@ -6,6 +6,11 @@ const initialState = {
             id: 1,
             title: "Tablet",
             category: "programmer",
+        },
+        {
+            id: 2,
+            title: "Tabletts",
+            category: "programmerrs",
         }
     ]
 }
