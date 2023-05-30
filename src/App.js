@@ -8,11 +8,13 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Header />
-        <Route  path="/" exact component={ProductListing}/>
-        <Route path="/product/:productId" exact component={ProductDetail} />
-        <Route>404 Not Found😒</Route>
-      </Router>
+        <Switch>
+          <Header />
+          <Route  path="/" exact component={ProductListing}/>
+          <Route path="/product/:productId" exact component={ProductDetail} />
+          <Route>404 Not Found😒</Route>
+        </Switch>
+        </Router>
     </div>
   );
 }
