@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux';
 
 const ProductComponent = () => {
-  const products = useSelector((state) => state.allProducts);
+  const products = useSelector((state) => state.allProducts.product);
   const { id, title } = product;
   return (
     <div className='four column wide'>
