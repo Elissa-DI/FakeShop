@@ -6,17 +6,7 @@ const ProductComponent = () => {
   const { id, title } = products[0];
   return (
     <div className='four column wide'>
-      <div className="iu link cards">
-        <div className="card">
-          <div className="image">
-
-          </div>
-          <div className="content">
-            <div className="header">
-              { title }
-            </div>
-          </div>
-        </div>
+      
       </div>
     </div>
   )
